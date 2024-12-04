@@ -8,7 +8,9 @@ public:
             if(prices[i] < minCost){
                 minCost = prices[i];
             }
+            else{
             profit = max(profit, prices[i] - minCost);
+        }
         }
         return profit;
     }
