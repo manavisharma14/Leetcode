@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/manavisharma14/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0143-reorder-list](https://github.com/manavisharma14/Leetcode/tree/master/0143-reorder-list) |
+| [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/manavisharma14/Leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## Stack
 |  |
 | ------- |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/manavisharma14/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/manavisharma14/Leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## Sliding Window
 |  |
 | ------- |
