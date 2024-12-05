@@ -21,6 +21,13 @@ public:
                 return false;
             }
         }
+
+        for(auto it: freq){
+            if(it.second != 0){
+                return false;
+            }
+        }
+
         return true;
     }
 };
