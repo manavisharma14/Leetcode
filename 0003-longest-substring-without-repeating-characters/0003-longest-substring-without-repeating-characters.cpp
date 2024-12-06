@@ -4,21 +4,17 @@ public:
         unordered_set<char>charset;
         int left = 0;
         int n = s.length();
-        int maxlength = 0;
+        int maxLength = 0;
 
-        for(int right = 0; right<n; right++){
-            if(charset.count(s[right]) == 0){
-                charset.insert(s[right]);
-                maxlength = max(maxlength, (right - left + 1));
+        for(int right=0; right<n; right++){
+        
+            while(charset.count(s[right])){
+                charset.erase(s[left]);
+                left++;
             }
-            else 
-                while(charset.count(s[right])){
-                    charset.erase(s[left]);
-                    left++;
-                }
-                charset.insert(s[right]);
-            
-        }
-        return maxlength;
+            charset.insert(s[right]);
+            maxLength = max(maxLength, right-left+1);
+        }       
+        return maxLength;
     }
 };
