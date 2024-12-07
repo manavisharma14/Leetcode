@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/manavisharma14/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/manavisharma14/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/manavisharma14/Leetcode/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/manavisharma14/Leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manavisharma14/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Dynamic Programming
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/manavisharma14/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/manavisharma14/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/manavisharma14/Leetcode/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/manavisharma14/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manavisharma14/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Sorting
@@ -47,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/manavisharma14/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/manavisharma14/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/manavisharma14/Leetcode/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manavisharma14/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Prefix Sum
 |  |
@@ -58,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/manavisharma14/Leetcode/tree/master/0053-maximum-subarray) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/manavisharma14/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0191-number-of-1-bits](https://github.com/manavisharma14/Leetcode/tree/master/0191-number-of-1-bits) |
+| [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Binary Search
 |  |
 | ------- |
@@ -191,4 +195,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/manavisharma14/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manavisharma14/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manavisharma14/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
