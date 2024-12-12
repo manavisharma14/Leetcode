@@ -1,6 +1,9 @@
+
+
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
+
         if(s.length() != t.length()){
             return false;
         }
@@ -17,13 +20,17 @@ public:
                     return false;
                 }
             }
-            else if(map2.find(ch2) != map2.end()){
-                return false;
-            } else{
-                map1[ch1] = ch2;
-                map2[ch2] = true;
-            }
+
+                else if(map2.find(ch2) != map2.end()){
+                    return false;
+                }
+
+                else{
+                    map1[ch1] = ch2;
+                    map2[ch2] = true;
+                }
+            
         }
-        return true;
-    }
+            return true;
+        }
 };
