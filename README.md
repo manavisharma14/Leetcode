@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/manavisharma14/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0013-roman-to-integer](https://github.com/manavisharma14/Leetcode/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/manavisharma14/Leetcode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/manavisharma14/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/manavisharma14/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/manavisharma14/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/manavisharma14/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0013-roman-to-integer](https://github.com/manavisharma14/Leetcode/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/manavisharma14/Leetcode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/manavisharma14/Leetcode/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/manavisharma14/Leetcode/tree/master/0205-isomorphic-strings) |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/manavisharma14/Leetcode/tree/master/0009-palindrome-number) |
+| [0013-roman-to-integer](https://github.com/manavisharma14/Leetcode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/manavisharma14/Leetcode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/manavisharma14/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/manavisharma14/Leetcode/tree/master/0268-missing-number) |
