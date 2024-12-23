@@ -1,15 +1,16 @@
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        int allxor = 0;
+        int xor_result = 0;
+        int n = nums.size();
 
-        for(int i=0; i<= nums.size(); i++){
-            allxor = allxor^i;
+        // XOR all numbers from 0 to n
+        for(int i = 0; i <= n; i++) {
+            xor_result ^= i;
         }
-
-        for(int num: nums){
-            allxor = allxor^num;
+        for(int num : nums){
+            xor_result ^= num;
         }
-        return allxor;
+        return xor_result;
     }
 };
