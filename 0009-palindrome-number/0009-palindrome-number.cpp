@@ -5,14 +5,18 @@ public:
             return false;
         }
 
-        long long reversed = 0;
-        long long temp = x;
+        int ans = 0;
+        int original = x;
 
-        while(temp !=0 ){
-            int digit = temp % 10;
-            reversed = reversed * 10 + digit;
-            temp = temp/10;
+        while(x!=0){
+            int digit = x%10;
+
+            if((ans > INT_MAX / 10) || (ans < INT_MIN /10)){
+                return false;
+            }
+            ans = ans*10 + digit;
+            x = x/10;
         }
-        return (reversed == x);
+        return original == ans;
     }
 };
