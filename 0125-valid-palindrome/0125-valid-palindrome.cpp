@@ -4,7 +4,6 @@ public:
         string ans;
 
         for(char c: s){
-            if(c == ' ') continue;
             if(isalnum(c)){
                 ans+=tolower(c);
             }
