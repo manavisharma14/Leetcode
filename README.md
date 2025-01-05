@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2164-two-best-non-overlapping-events](https://github.com/manavisharma14/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/manavisharma14/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manavisharma14/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/manavisharma14/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/manavisharma14/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 ## Dynamic Programming
 |  |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/manavisharma14/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/manavisharma14/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/manavisharma14/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/manavisharma14/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2032-largest-odd-number-in-string](https://github.com/manavisharma14/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/manavisharma14/Leetcode/tree/master/2414-move-pieces-to-obtain-a-string) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/manavisharma14/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/manavisharma14/Leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## Sliding Window
 |  |
