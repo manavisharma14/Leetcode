@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/manavisharma14/Leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/manavisharma14/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/manavisharma14/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/manavisharma14/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/manavisharma14/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/manavisharma14/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manavisharma14/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/manavisharma14/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2032-largest-odd-number-in-string](https://github.com/manavisharma14/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/manavisharma14/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/manavisharma14/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/manavisharma14/Leetcode/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2465-shifting-letters-ii](https://github.com/manavisharma14/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/manavisharma14/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -262,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/manavisharma14/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0812-rotate-string](https://github.com/manavisharma14/Leetcode/tree/master/0812-rotate-string) |
 | [1524-string-matching-in-an-array](https://github.com/manavisharma14/Leetcode/tree/master/1524-string-matching-in-an-array) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/manavisharma14/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 ## Hash Function
 |  |
 | ------- |
