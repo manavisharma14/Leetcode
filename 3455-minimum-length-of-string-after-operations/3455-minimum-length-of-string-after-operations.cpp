@@ -1,19 +1,21 @@
 class Solution {
 public:
     int minimumLength(string s) {
-        vector<int> charFrequency(26, 0);
-        int totalLength = 0;
-        for (char currentChar : s) {
-            charFrequency[currentChar - 'a']++;
+        vector<int> charFreq(26,0);
+        int totallength = 0;
+
+        for(char c : s){
+            charFreq[c-'a']++;
         }
-        for (int frequency : charFrequency) {
-            if (frequency == 0) continue;
-            if (frequency % 2 == 0) {
-                totalLength += 2;
+
+        for(int freq : charFreq){
+            if(freq == 0) continue;
+            if(freq % 2 == 0){
+                totallength += 2;
             } else {
-                totalLength += 1;
+                totallength += 1;
             }
         }
-        return totalLength;
+        return totallength;
     }
 };
