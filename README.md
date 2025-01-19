@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/manavisharma14/Leetcode/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/manavisharma14/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0560-subarray-sum-equals-k](https://github.com/manavisharma14/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1524-string-matching-in-an-array](https://github.com/manavisharma14/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/manavisharma14/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/manavisharma14/Leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/manavisharma14/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/manavisharma14/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0560-subarray-sum-equals-k](https://github.com/manavisharma14/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/manavisharma14/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manavisharma14/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/manavisharma14/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -96,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/manavisharma14/Leetcode/tree/master/0238-product-of-array-except-self) |
+| [0560-subarray-sum-equals-k](https://github.com/manavisharma14/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/manavisharma14/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/manavisharma14/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2358-number-of-ways-to-split-array](https://github.com/manavisharma14/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
