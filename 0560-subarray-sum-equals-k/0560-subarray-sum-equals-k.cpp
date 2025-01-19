@@ -1,24 +1,22 @@
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
-        int count = 0;
-        int prefixSum = 0; // Running prefix sum
-        unordered_map<int, int> map; // Store prefix sum frequencies
+        int n = nums.size();
 
-        map[0] = 1; // Base case for subarrays starting at index 0
+        unordered_map<int,int>map;
+        map[0]=1;
+        
+        int current_sum = 0, count=0; 
 
-        for (int num : nums) {
-            prefixSum += num; // Update the running prefix sum
+        for(int num : nums){
+            current_sum += num;
 
-            // Check if there exists a prefix sum that makes the current sum equal to k
-            if (map.find(prefixSum - k) != map.end()) {
-                count += map[prefixSum - k];
+            if(map.find(current_sum - k) != map.end()){
+                count += map[current_sum - k];
             }
 
-            // Update the frequency of the current prefix sum
-            map[prefixSum]++;
+            map[current_sum]++;
         }
-
         return count;
     }
 };
