@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/manavisharma14/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manavisharma14/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/manavisharma14/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/manavisharma14/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Sorting
 |  |
 | ------- |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2465-shifting-letters-ii](https://github.com/manavisharma14/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/manavisharma14/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/manavisharma14/Leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/manavisharma14/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Sliding Window
 |  |
 | ------- |
@@ -298,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/manavisharma14/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/manavisharma14/Leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/manavisharma14/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Quickselect
 |  |
 | ------- |
