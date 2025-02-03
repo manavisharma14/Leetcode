@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/manavisharma14/Leetcode/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/manavisharma14/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0542-01-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/manavisharma14/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0733-flood-fill](https://github.com/manavisharma14/Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/manavisharma14/Leetcode/tree/master/1036-rotting-oranges) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/manavisharma14/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manavisharma14/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0338-counting-bits](https://github.com/manavisharma14/Leetcode/tree/master/0338-counting-bits) |
+| [0542-01-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/manavisharma14/Leetcode/tree/master/0647-palindromic-substrings) |
 | [1013-fibonacci-number](https://github.com/manavisharma14/Leetcode/tree/master/1013-fibonacci-number) |
 | [2164-two-best-non-overlapping-events](https://github.com/manavisharma14/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
@@ -226,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/manavisharma14/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/manavisharma14/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0542-01-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/manavisharma14/Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/manavisharma14/Leetcode/tree/master/1036-rotting-oranges) |
 | [1396-count-servers-that-communicate](https://github.com/manavisharma14/Leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -272,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/manavisharma14/Leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/manavisharma14/Leetcode/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/manavisharma14/Leetcode/tree/master/0226-invert-binary-tree) |
+| [0542-01-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/manavisharma14/Leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/manavisharma14/Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/manavisharma14/Leetcode/tree/master/1036-rotting-oranges) |
