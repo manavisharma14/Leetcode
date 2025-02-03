@@ -1,14 +1,12 @@
 class Solution {
 public:
     int numEnclaves(vector<vector<int>>& grid) {
-        queue<pair<int,int>>q;
-
         int m = grid.size();
         int n = grid[0].size();
+        vector<vector<int>>visited(m, vector<int>(n,0));
+        queue<pair<int,int>>q;
 
-        vector<vector<int>>visited(m , vector<int>(n,0));
-
-        for(int i=0; i<m ; i++){
+        for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
                 if(i==0 || i==m-1 || j==0 || j==n-1){
                     if(grid[i][j] == 1){
@@ -30,18 +28,18 @@ public:
                 int dx = row + directions[i][0];
                 int dy = col + directions[i][1];
 
-                if(dx>=0 && dx<m && dy>=0 && dy<n && !visited[dx][dy] && grid[dx][dy] == 1){
-                    visited[dx][dy] = 1;
+                if(dx>=0 && dx<m && dy>=0 && dy<n && grid[dx][dy] == 1 && !visited[dx][dy]){
                     q.push({dx,dy});
+                    visited[dx][dy] = 1;
                 }
             }
         }
-        
-        int count = 0;
 
-        for(int i=0; i<m; i++){
+        int count=0; 
+
+        for(int i=0 ;i<m; i++){
             for(int j=0; j<n; j++){
-                if(grid[i][j] == 1 && visited[i][j] == 0){
+                if(grid[i][j] == 1 && !visited[i][j]){
                     count++;
                 }
             }
