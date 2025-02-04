@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1876-map-of-highest-peak](https://github.com/manavisharma14/Leetcode/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/manavisharma14/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/manavisharma14/Leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/manavisharma14/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2145-grid-game](https://github.com/manavisharma14/Leetcode/tree/master/2145-grid-game) |
 | [2164-two-best-non-overlapping-events](https://github.com/manavisharma14/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/manavisharma14/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
