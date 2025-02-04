@@ -1,50 +1,44 @@
-#include <vector>
-#include <queue>
-
-using namespace std;
-
 class Solution {
 public:
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int> indegree(numCourses, 0);  // To store in-degrees
-        vector<vector<int>> adj(numCourses); // Adjacency list
-        vector<int> ans;                     // To store topological order
-        vector<bool> visited(numCourses, false); // To track visited nodes
+    bool canFinish(int v, vector<vector<int>>& prerequisites) {
 
-        // Build adjacency list and calculate in-degrees
-        for (const auto& pre : prerequisites) {
-            adj[pre[1]].push_back(pre[0]);  // pre[1] is prerequisite for pre[0]
-            indegree[pre[0]]++;
+        vector<int>indegree(v,0);
+
+        vector<vector<int>>adj(v);
+
+        for(auto &pre: prerequisites){
+            int course = pre[0];
+            int prerequisite = pre[1];
+
+            adj[prerequisite].push_back(course);
+            indegree[course]++;
         }
 
-        queue<int> q;
+       
 
-        // Push all courses with in-degree 0 into the queue
-        for (int i = 0; i < numCourses; ++i) {
-            if (indegree[i] == 0) {
+        queue<int>q;
+
+        for(int i=0 ;i<v; i++){
+            if(indegree[i] == 0){
                 q.push(i);
-                visited[i] = true; // Mark as visited
             }
         }
 
-        // Perform BFS
-        while (!q.empty()) {
-            int course = q.front();
-            q.pop();
-            ans.push_back(course); // Add to topological order
+        int count=0;
 
-            for (int neighbor : adj[course]) {
-                if (!visited[neighbor]) { // Check if not visited
-                    indegree[neighbor]--;
-                    if (indegree[neighbor] == 0) {
-                        q.push(neighbor);
-                        visited[neighbor] = true; // Mark as visited
-                    }
+        while(!q.empty()){
+            int node = q.front();
+            q.pop();
+
+            count++;
+
+            for(auto it: adj[node]){
+                indegree[it]--;
+                if(indegree[it] == 0){
+                    q.push(it);
                 }
             }
         }
-
-        // Check if the topological order contains all courses
-        return ans.size() == numCourses;
+        return count == v;
     }
 };
