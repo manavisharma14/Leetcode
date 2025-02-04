@@ -10,10 +10,10 @@ public:
                 sum += nums[i];
             }
             else{
-            maxsum = max(sum, maxsum);
             sum = nums[i];
             }
+            maxsum = max(sum, maxsum);
         }
-        return max(maxsum, sum);
+        return maxsum;
     }
 };
