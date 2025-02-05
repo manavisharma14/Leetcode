@@ -1,65 +1,52 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        int n = grid.size();
-        int m = grid[0].size();
-        int time = 0;
+        int m = grid.size();
+        int n = grid[0].size();
+        int time=0;
+        int freshoranges=0;
 
-        queue<pair<int, int>> q;
+        vector<vector<int>>visited(m, vector<int>(n,0));
+        queue<pair<int,int>>q;
 
-        // Enqueue all rotten oranges initially
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (grid[i][j] == 2) {
-                    q.push({i, j});
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
+                if(grid[i][j] == 2){
+                    q.push({i,j});
+                    visited[i][j] = 1;
+                } else if(grid[i][j] == 1){
+                    freshoranges++;
                 }
             }
         }
 
-        // Directions array for 4 directions (down, up, right, left)
-        int directions[4][2] = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
-        
-        // Perform BFS
-        while (!q.empty()) {
+        int directions[4][2] = {{1,0},{-1,0}, {0,1}, {0,-1}};
+        while(!q.empty() && freshoranges>0){
             int size = q.size();
-            bool rotten = false;  // Flag to check if any fresh orange rots in this level
-            
-            // Process all rotten oranges at this level
-            for (int i = 0; i < size; i++) {
-                auto node = q.front();
-                q.pop();
-                int r = node.first;
-                int c = node.second;
+            bool rotten = false;
 
-                // Check all 4 directions for fresh oranges
-                for (int j = 0; j < 4; j++) {
-                    int dx = r + directions[j][0];
-                    int dy = c + directions[j][1];
 
-                    // Check bounds and if the adjacent orange is fresh
-                    if (dx >= 0 && dx < n && dy >= 0 && dy < m && grid[dx][dy] == 1) {
-                        grid[dx][dy] = 2;  // Rot the fresh orange
-                        q.push({dx, dy});
-                        rotten = true;  // Mark that we rotted an orange
-                    }
+            for(int i=0; i<size; i++){
+            int row = q.front().first;
+            int col = q.front().second;
+            q.pop();
+           
+
+            for(int i=0; i<4; i++){
+                int dx = row + directions[i][0];
+                int dy = col + directions[i][1];
+
+                if(dx>=0 && dx<m && dy>=0 && dy<n && grid[dx][dy] == 1 && !visited[dx][dy]){
+                    grid[dx][dy] = 2;
+                    q.push({dx,dy});
+                    visited[dx][dy] = 1;
+                    freshoranges--;
+                    rotten = true;
                 }
             }
-
-            // If any orange rotted in this level, increment time
-            if (rotten) {
-                time++;
             }
+        if (rotten) time++;
         }
-
-        // After BFS, check if there are any fresh oranges left
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (grid[i][j] == 1) {
-                    return -1;  // If there's any fresh orange left, return -1
-                }
-            }
-        }
-
-        return time;  // Return total time taken for all oranges to rot
+        return freshoranges == 0? time : -1;
     }
 };
