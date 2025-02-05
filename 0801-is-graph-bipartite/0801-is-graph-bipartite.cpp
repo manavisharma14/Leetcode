@@ -1,13 +1,14 @@
 class Solution {
 public:
-    bool dfs(int node, int col, vector<vector<int>>& graph, int color[]){
+
+    bool dfs(int node, int col, vector<int>&color, vector<int>& visited, vector<vector<int>>& graph){
+        visited[node] = 1;
         color[node] = col;
 
-        for(auto it: graph[node]){
-            if(color[it] == -1){
-                if(dfs(it, !col, graph, color) == false){
-                    return false;
-                }
+        for(auto it : graph[node]){
+            if(!visited[it]){
+                if(dfs(it, !col, color, visited, graph) == false)
+                return false;
             }
             else if(color[it] == col){
                 return false;
@@ -19,16 +20,12 @@ public:
     bool isBipartite(vector<vector<int>>& graph) {
         int v = graph.size();
 
-        int color[v];
-        for(int i=0; i<v; i++){
-            color[i] = -1;
-        }
+        vector<int>color(v,-1);
+        vector<int>visited(v,0);
 
         for(int i=0; i<v; i++){
-            if(color[i] == -1){
-                if(dfs(i, 0, graph, color) == false){
-                    return false;
-                }
+            if(!visited[i]){
+                if(dfs(i, 0, color, visited, graph) == false) return false;
             }
         }
         return true;
