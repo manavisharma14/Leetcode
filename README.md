@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/manavisharma14/Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/manavisharma14/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/manavisharma14/Leetcode/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/manavisharma14/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/manavisharma14/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1524-string-matching-in-an-array](https://github.com/manavisharma14/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1876-map-of-highest-peak](https://github.com/manavisharma14/Leetcode/tree/master/1876-map-of-highest-peak) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/manavisharma14/Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/manavisharma14/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/manavisharma14/Leetcode/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/manavisharma14/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/manavisharma14/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1876-map-of-highest-peak](https://github.com/manavisharma14/Leetcode/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/manavisharma14/Leetcode/tree/master/2145-grid-game) |
@@ -301,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/manavisharma14/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/manavisharma14/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/manavisharma14/Leetcode/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/manavisharma14/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/manavisharma14/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1876-map-of-highest-peak](https://github.com/manavisharma14/Leetcode/tree/master/1876-map-of-highest-peak) |
 ## Binary Tree
