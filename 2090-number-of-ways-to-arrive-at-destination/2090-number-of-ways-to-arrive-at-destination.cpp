@@ -1,58 +1,54 @@
-#include <vector>
-#include <queue>
-#include <utility>
-#include <climits>
-
-using namespace std;
-
 class Solution {
 public:
     int countPaths(int n, vector<vector<int>>& roads) {
-        vector<vector<pair<int, int>>> adj(n);
+        vector<vector<pair<int,int>>>adj(n);
+
         priority_queue<pair<long long, int>, vector<pair<long long, int>>, greater<>> pq;
 
-        // Build adjacency list (bidirectional)
-        for (auto it : roads) {
+
+        for(auto it: roads){
             adj[it[0]].push_back({it[1], it[2]});
             adj[it[1]].push_back({it[0], it[2]});
         }
 
-        // Initialize distance and ways arrays
+
         vector<long long> distance(n, LLONG_MAX);
-        vector<long long> ways(n, 0);
-        int mod = (int)(1e9 + 7);
 
-        // Starting node
+        vector<long long>ways(n,0);
+        int mod = (int)(1e9+7);
         ways[0] = 1;
-        distance[0] = 0;
-        pq.push({0, 0});
 
-        // Dijkstra's Algorithm
-        while (!pq.empty()) {
+        distance[0] = 0;
+        pq.push({0,0});
+        
+        while(!pq.empty()){
             auto it = pq.top();
             pq.pop();
 
-            long long dist = it.first;  // <-- FIXED HERE
+            long long dist = it.first;
             int node = it.second;
 
-            if (dist > distance[node]) continue;  // Skip if already visited with a shorter distance
-
-            for (auto iter : adj[node]) {
+            for(auto iter: adj[node]){
                 int adjnode = iter.first;
                 int t = iter.second;
+
+                if (dist > distance[node]) continue;
+
 
                 long long newDist = distance[node] + t;
                 if (newDist < distance[adjnode]) {
                     distance[adjnode] = newDist;
-                    ways[adjnode] = ways[node];  // Inherit the number of ways from the current node
+                    ways[adjnode] = ways[node];
                     pq.push({newDist, adjnode});
-                } else if (distance[adjnode] == newDist) {
-                    ways[adjnode] = (ways[node] + ways[adjnode]) % mod;  // Accumulate the number of ways
                 }
+
+
+                else if(distance[adjnode] == newDist) {
+                    ways[adjnode] = (ways[node] + ways[adjnode]) % mod;
+                }
+
             }
         }
-
-        // Return the number of ways to reach the last node
-        return ways[n - 1] % mod;
+        return ways[n - 1] % mod ;
     }
 };
