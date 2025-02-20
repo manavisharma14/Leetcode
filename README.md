@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/manavisharma14/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/manavisharma14/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/manavisharma14/Leetcode/tree/master/3429-special-array-i) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/manavisharma14/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/manavisharma14/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manavisharma14/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/manavisharma14/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/manavisharma14/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/manavisharma14/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Sorting
 |  |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0054-spiral-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/manavisharma14/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/manavisharma14/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Tree
 |  |
 | ------- |
