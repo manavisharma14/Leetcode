@@ -32,23 +32,21 @@ public:
             auto it = pq.top();
             pq.pop();
 
-            long long dist = it.first;
+            long long dist = it.first;  // <-- FIXED HERE
             int node = it.second;
 
             if (dist > distance[node]) continue;  // Skip if already visited with a shorter distance
 
             for (auto iter : adj[node]) {
                 int adjnode = iter.first;
-                long long t = iter.second;
+                int t = iter.second;
 
-                // Found a shorter path
-                if (distance[adjnode] > distance[node] + t) {
-                    distance[adjnode] = distance[node] + t;
+                long long newDist = distance[node] + t;
+                if (newDist < distance[adjnode]) {
+                    distance[adjnode] = newDist;
                     ways[adjnode] = ways[node];  // Inherit the number of ways from the current node
-                    pq.push({distance[adjnode], adjnode});
-                }
-                // Found another shortest path
-                else if (distance[adjnode] == distance[node] + t) {
+                    pq.push({newDist, adjnode});
+                } else if (distance[adjnode] == newDist) {
                     ways[adjnode] = (ways[node] + ways[adjnode]) % mod;  // Accumulate the number of ways
                 }
             }
