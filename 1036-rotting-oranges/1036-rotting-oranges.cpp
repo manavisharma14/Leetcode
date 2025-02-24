@@ -3,50 +3,52 @@ public:
     int orangesRotting(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
-        int time=0;
-        int freshoranges=0;
+        queue<pair<int,int>>q;
 
         vector<vector<int>>visited(m, vector<int>(n,0));
-        queue<pair<int,int>>q;
+
+        int time=0, freshoranges=0;
 
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
                 if(grid[i][j] == 2){
                     q.push({i,j});
                     visited[i][j] = 1;
-                } else if(grid[i][j] == 1){
+                }
+                if(grid[i][j] == 1){
                     freshoranges++;
                 }
             }
         }
 
-        int directions[4][2] = {{1,0},{-1,0}, {0,1}, {0,-1}};
+
+
+        int directions[4][2] = {{1,0}, {-1,0}, {0,1}, {0,-1}};
+
         while(!q.empty() && freshoranges>0){
             int size = q.size();
-            bool rotten = false;
-
+            time++;
 
             for(int i=0; i<size; i++){
-            int row = q.front().first;
-            int col = q.front().second;
+                auto node = q.front();
+            int row = node.first;
+            int col = node.second;
             q.pop();
-           
 
             for(int i=0; i<4; i++){
-                int dx = row + directions[i][0];
-                int dy = col + directions[i][1];
+                int newr = row + directions[i][0];
+                int newc = col + directions[i][1];
 
-                if(dx>=0 && dx<m && dy>=0 && dy<n && grid[dx][dy] == 1 && !visited[dx][dy]){
-                    grid[dx][dy] = 2;
-                    q.push({dx,dy});
-                    visited[dx][dy] = 1;
+                if(newr>=0 && newr<m && newc>=0 && newc<n && grid[newr][newc] == 1 && !visited[newr][newc]){
+                    visited[newr][newc] = 1;
+                    grid[newr][newc] = 2;
                     freshoranges--;
-                    rotten = true;
+                    q.push({newr, newc});
                 }
             }
             }
-        if (rotten) time++;
         }
-        return freshoranges == 0? time : -1;
+        return freshoranges == 0? time: -1;
+        
     }
 };
