@@ -5,7 +5,7 @@ public:
         vector<vector<int>>adj(v);
         vector<int>indegree(v,0);
 
-        for(auto &pre : prerequisites){
+        for(auto &pre: prerequisites){
             int course = pre[0];
             int prerequisite = pre[1];
 
@@ -21,19 +21,21 @@ public:
             }
         }
 
-        int count=0;
+        int count = 0;
         while(!q.empty()){
             int node = q.front();
             q.pop();
             count++;
 
-            for(auto it : adj[node]){
+            for(auto it: adj[node]){
                 indegree[it]--;
                 if(indegree[it] == 0){
                     q.push(it);
                 }
             }
         }
+
+        
         return count == v;
     }
 };
