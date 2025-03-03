@@ -1,36 +1,31 @@
 class Solution {
 public:
 
-    bool isVowel(char c){
-        c = tolower(c);
-        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
-    }
-
+    
     vector<int> vowelStrings(vector<string>& words, vector<vector<int>>& queries) {
+
+        vector<int> prefixCount(words.size() + 1, 0);
+
+        auto isVowelString = [](const string& word) {
+
+            char first = word.front(), last = word.back();
+            return (first == 'a' || first == 'e' || first == 'i' || first == 'o' || first == 'u') &&
+                   (last == 'a' || last == 'e' || last == 'i' || last == 'o' || last == 'u');
+        };
         
-        int n = words.size();
-        vector<int>prefixsum(n+1, 0);
 
         for(int i=0; i<words.size(); i++){
-            const string &word = words[i];
-
-            if (isVowel(word[0]) && isVowel(word[word.length() - 1])) {
-                prefixsum[i+1] = prefixsum[i] + 1;
-            } 
-            else {
-                prefixsum[i+1] = prefixsum[i];
-            }
+            prefixCount[i+1] = prefixCount[i] + (isVowelString(words[i])?1:0);
         }
 
+        vector<int>ans;
+        for(auto& query: queries){
+            int left = query[0];
+            int right = query[1];
 
-        vector<int>result;
-
-        for(const auto& query: queries){
-            int li = query[0];
-            int ri = query[1];
-
-            result.push_back(prefixsum[ri+1] - prefixsum[li]);
+            ans.push_back(prefixCount[right+1] - prefixCount[left]);
         }
-        return result;
+    return ans;
+        
     }
 };
