@@ -1,17 +1,17 @@
 class Solution {
 public:
 
+    bool isVowelString(const string& word) {
+        char first = word.front(), last = word.back();
+        return (first == 'a' || first == 'e' || first == 'i' || first == 'o' || first == 'u') &&
+               (last == 'a' || last == 'e' || last == 'i' || last == 'o' || last == 'u');
+    }
     
     vector<int> vowelStrings(vector<string>& words, vector<vector<int>>& queries) {
 
         vector<int> prefixCount(words.size() + 1, 0);
 
-        auto isVowelString = [](const string& word) {
-
-            char first = word.front(), last = word.back();
-            return (first == 'a' || first == 'e' || first == 'i' || first == 'o' || first == 'u') &&
-                   (last == 'a' || last == 'e' || last == 'i' || last == 'o' || last == 'u');
-        };
+        
         
 
         for(int i=0; i<words.size(); i++){
