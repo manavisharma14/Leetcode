@@ -2,10 +2,10 @@ class Solution {
 public:
     int prefixCount(vector<string>& words, string pref) {
         int n = words.size();
-        int count = 0;
+        int count=0;
 
         for(int i=0; i<n; i++){
-            if(words[i].find(pref) == 0){
+            if(pref == words[i].substr(0, pref.length())){
                 count++;
             }
         }
