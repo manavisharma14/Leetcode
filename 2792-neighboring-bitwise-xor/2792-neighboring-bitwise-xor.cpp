@@ -1,15 +1,12 @@
 class Solution {
 public:
     bool doesValidArrayExist(vector<int>& derived) {
-        int sum=0;
-        
-        for(int i=0 ;i<derived.size(); i++){
-            sum = sum^derived[i];
+        int xorsum = 0;
+
+        for(int num : derived){
+            xorsum ^= num;
         }
 
-        if(sum == 0){
-            return true;
-        }
-        return false;
+        return xorsum == 0;
     }
 };
