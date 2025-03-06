@@ -1,12 +1,14 @@
 class Solution {
 public:
     int firstCompleteIndex(vector<int>& arr, vector<vector<int>>& mat) {
+
         int m = mat.size();
         int n = mat[0].size();
-        unordered_map<int, pair<int,int>>positionmap;
 
-        vector<int> row_count(m, 0); // Count marked cells in each row
-        vector<int> col_count(n, 0); // Count marked cells in each column
+        unordered_map<int,pair<int,int>>positionmap;
+
+        vector<int>rowcount(m,0);
+        vector<int>colcount(n,0);
 
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
@@ -17,12 +19,12 @@ public:
         for(int i=0; i<arr.size(); i++){
             int val = arr[i];
 
-            auto [row,col] = positionmap[val];
+            auto [row, col] = positionmap[val];
 
-            row_count[row]++;
-            col_count[col]++;
+            rowcount[row]++;
+            colcount[col]++;
 
-            if (row_count[row] == n || col_count[col] == m) {
+            if(rowcount[row] == n || colcount[col] == m){
                 return i;
             }
         }
