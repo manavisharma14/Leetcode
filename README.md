@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/manavisharma14/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/manavisharma14/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/manavisharma14/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/manavisharma14/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1396-count-servers-that-communicate](https://github.com/manavisharma14/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1524-string-matching-in-an-array](https://github.com/manavisharma14/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1753-path-with-minimum-effort](https://github.com/manavisharma14/Leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/manavisharma14/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/manavisharma14/Leetcode/tree/master/0268-missing-number) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/manavisharma14/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1753-path-with-minimum-effort](https://github.com/manavisharma14/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/manavisharma14/Leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/manavisharma14/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
