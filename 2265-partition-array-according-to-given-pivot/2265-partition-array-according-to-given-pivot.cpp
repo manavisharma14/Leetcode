@@ -5,7 +5,9 @@ public:
         vector<int>right;
         vector<int>middle;
 
-        for(int i=0; i<nums.size(); i++){
+        int n = nums.size();
+
+        for(int i=0; i<n; i++){
             if(nums[i] < pivot){
                 left.push_back(nums[i]);
             }
