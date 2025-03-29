@@ -4,26 +4,27 @@ public:
         sort(meetings.begin(), meetings.end());
 
         int totalbusy = 0;
+
         int currstart = meetings[0][0];
         int currend = meetings[0][1];
 
-        for(int i=1; i<meetings.size(); i++){
-            int start = meetings[i][0];
-            int end = meetings[i][1];
+        for(int i=0; i<meetings.size(); i++){
+                int start = meetings[i][0];
+                int end = meetings[i][1];
 
-            if (start <= currend){
-                currend = max(end, currend);
-                start = min(start, currstart);
+                if(start<=currend){
+                    currstart = currstart;
+                    currend = max(end,currend);
+                }
+                else{
+                    // total busy days
+                    totalbusy += currend - currstart + 1;
+                    currstart = start;
+                    currend = end;
+                }
             }
 
-            else{
-                totalbusy += currend - currstart + 1;
-                currstart = start;
-                currend = end;
-            }
-        }
-
-        totalbusy += currend - currstart + 1;
-        return days-totalbusy;
+            totalbusy += currend - currstart + 1;
+            return days - totalbusy;   
     }
 };
