@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/manavisharma14/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manavisharma14/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/manavisharma14/Leetcode/tree/master/0130-surrounded-regions) |
+| [0136-single-number](https://github.com/manavisharma14/Leetcode/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/manavisharma14/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/manavisharma14/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/manavisharma14/Leetcode/tree/master/0189-rotate-array) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/manavisharma14/Leetcode/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/manavisharma14/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/manavisharma14/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/manavisharma14/Leetcode/tree/master/0268-missing-number) |
