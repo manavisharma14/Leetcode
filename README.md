@@ -244,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/manavisharma14/Leetcode/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/manavisharma14/Leetcode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/manavisharma14/Leetcode/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/manavisharma14/Leetcode/tree/master/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/manavisharma14/Leetcode/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/manavisharma14/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/manavisharma14/Leetcode/tree/master/0242-valid-anagram) |
@@ -291,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/manavisharma14/Leetcode/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/manavisharma14/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/manavisharma14/Leetcode/tree/master/0050-powx-n) |
+| [0067-add-binary](https://github.com/manavisharma14/Leetcode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/manavisharma14/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/manavisharma14/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/manavisharma14/Leetcode/tree/master/0204-count-primes) |
@@ -309,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/manavisharma14/Leetcode/tree/master/0029-divide-two-integers) |
+| [0067-add-binary](https://github.com/manavisharma14/Leetcode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/manavisharma14/Leetcode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/manavisharma14/Leetcode/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/manavisharma14/Leetcode/tree/master/0191-number-of-1-bits) |
@@ -347,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/manavisharma14/Leetcode/tree/master/0067-add-binary) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/manavisharma14/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/manavisharma14/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/manavisharma14/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
