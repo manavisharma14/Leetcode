@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/manavisharma14/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/manavisharma14/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/manavisharma14/Leetcode/tree/master/0198-house-robber) |
+| [0204-count-primes](https://github.com/manavisharma14/Leetcode/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/manavisharma14/Leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/manavisharma14/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/manavisharma14/Leetcode/tree/master/0217-contains-duplicate) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/manavisharma14/Leetcode/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/manavisharma14/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/manavisharma14/Leetcode/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/manavisharma14/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/manavisharma14/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/manavisharma14/Leetcode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/manavisharma14/Leetcode/tree/master/0371-sum-of-two-integers) |
@@ -538,9 +540,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/manavisharma14/Leetcode/tree/master/0204-count-primes) |
 | [2610-closest-prime-numbers-in-range](https://github.com/manavisharma14/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 ## Queue
 |  |
 | ------- |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/manavisharma14/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/manavisharma14/Leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
