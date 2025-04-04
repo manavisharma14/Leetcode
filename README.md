@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-maximum-ascending-subarray-sum](https://github.com/manavisharma14/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/manavisharma14/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2145-grid-game](https://github.com/manavisharma14/Leetcode/tree/master/2145-grid-game) |
+| [2159-two-out-of-three](https://github.com/manavisharma14/Leetcode/tree/master/2159-two-out-of-three) |
 | [2164-two-best-non-overlapping-events](https://github.com/manavisharma14/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2262-solving-questions-with-brainpower](https://github.com/manavisharma14/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/manavisharma14/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/manavisharma14/Leetcode/tree/master/0952-word-subsets) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/manavisharma14/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/manavisharma14/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2159-two-out-of-three](https://github.com/manavisharma14/Leetcode/tree/master/2159-two-out-of-three) |
 | [2308-divide-array-into-equal-pairs](https://github.com/manavisharma14/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2448-count-number-of-bad-pairs](https://github.com/manavisharma14/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/manavisharma14/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -342,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0461-hamming-distance](https://github.com/manavisharma14/Leetcode/tree/master/0461-hamming-distance) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/manavisharma14/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/manavisharma14/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2159-two-out-of-three](https://github.com/manavisharma14/Leetcode/tree/master/2159-two-out-of-three) |
 | [2308-divide-array-into-equal-pairs](https://github.com/manavisharma14/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/manavisharma14/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2478-longest-nice-subarray](https://github.com/manavisharma14/Leetcode/tree/master/2478-longest-nice-subarray) |
