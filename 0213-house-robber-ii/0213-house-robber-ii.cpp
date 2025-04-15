@@ -1,18 +1,22 @@
 class Solution {
 public:
 
-    int func(int idx, int n, vector<int>& nums, vector<int>& dp){
-        if(idx>n) return 0;
+    int func(vector<int>& nums, int start, int end){
+        int len = end - start + 1;
 
-        //pick
+        if(len == 1) return nums[start];
 
-        if(dp[idx] != -1) return dp[idx];
+        int prev2 = nums[start];
+        int prev = max(nums[start], nums[start+1]);
 
-        int pick = func(idx+2, n, nums, dp) + nums[idx];
-        int nonpick = func(idx+1, n, nums, dp);
+        for(int i=2; i<len; i++){
 
-        return dp[idx] = max(pick, nonpick);
+            int curi = max(prev2 + nums[start+i], prev);
+            prev2 = prev;
+            prev = curi;
+        }
 
+        return prev;
     }
 
 
@@ -24,16 +28,13 @@ public:
         if(n==1) return nums[0];
         if(n==2) return max(nums[0], nums[1]);
 
-        vector<int>dp1(n, -1);
-        vector<int>dp2(n,-1);
 
 
-        // ans1 0 to n-2
-        int ans1 = func(0, n-2, nums, dp1);
-        // ans2 1 to n-1
-        int ans2 = func(1, n-1, nums, dp2);
+        int ans1 = func(nums, 0, n-2);
+        int ans2 = func(nums, 1, n-1);
 
         return max(ans1, ans2);
+
         
         
     }
