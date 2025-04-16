@@ -1,30 +1,26 @@
 class Solution {
 public:
-
-    int func(int i, int j, vector<vector<int>>& triangle, vector<vector<int>>& dp){
-        // base case : last row n-1th row
-        int m = triangle.size();
-        if(i==m-1) return triangle[i][j];
-
-        if(dp[i][j] != -1) return dp[i][j];
-
-        int down = func(i+1, j, triangle, dp);
-        int diag = func(i+1, j+1, triangle, dp);
-
-        return dp[i][j] = triangle[i][j] + min(down, diag);
-    }
-
     int minimumTotal(vector<vector<int>>& triangle) {
         int m = triangle.size();
-        int n = triangle[0].size();
+        int n = triangle[m-1].size();
 
         vector<vector<int>>dp;
         for(int i=0; i<m; i++){
             dp.push_back(vector<int>(triangle[i].size(), -1));
         }
+
+        for(int j=0; j<n; j++){
+            dp[m-1][j] = triangle[m-1][j];
+        }
+
+        for(int i=m-2; i>=0; i--){
+            for(int j=0; j<triangle[i].size(); j++){
+                int up = dp[i+1][j] ;
+                int diag = dp[i+1][j+1];
+                dp[i][j] = triangle[i][j] + min(up, diag);
+            }
+        }
         
-        int ans = func(0,0, triangle, dp);
-        
-        return ans;
+        return dp[0][0];
     }
 };
