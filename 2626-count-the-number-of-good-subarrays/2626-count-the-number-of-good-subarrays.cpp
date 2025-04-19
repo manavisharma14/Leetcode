@@ -6,12 +6,12 @@ public:
         long long equal_pairs = 0;
         long long goodsubarrays = 0;
 
-        int n = nums.size();
-
         long long left = 0;
         long long right = 0;
 
-        for(right=0; right<n; ++right){
+        int n = nums.size();
+
+        for(right=0; right<n; right++){
             equal_pairs += freq[nums[right]];
             freq[nums[right]]++;
 
@@ -21,9 +21,7 @@ public:
                 equal_pairs -= freq[nums[left]];
                 left++;
             }
-
         }
-
         return goodsubarrays;
     }
 };
