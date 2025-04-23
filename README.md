@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/manavisharma14/Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/manavisharma14/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/manavisharma14/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0416-partition-equal-subset-sum](https://github.com/manavisharma14/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/manavisharma14/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0542-01-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/manavisharma14/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/manavisharma14/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/manavisharma14/Leetcode/tree/master/0213-house-robber-ii) |
 | [0338-counting-bits](https://github.com/manavisharma14/Leetcode/tree/master/0338-counting-bits) |
+| [0416-partition-equal-subset-sum](https://github.com/manavisharma14/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/manavisharma14/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/manavisharma14/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
