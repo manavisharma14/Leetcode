@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/manavisharma14/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0733-flood-fill](https://github.com/manavisharma14/Leetcode/tree/master/0733-flood-fill) |
+| [0797-rabbits-in-forest](https://github.com/manavisharma14/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0952-word-subsets](https://github.com/manavisharma14/Leetcode/tree/master/0952-word-subsets) |
 | [0967-minimum-falling-path-sum](https://github.com/manavisharma14/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/manavisharma14/Leetcode/tree/master/1036-rotting-oranges) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/manavisharma14/Leetcode/tree/master/0389-find-the-difference) |
 | [0424-longest-repeating-character-replacement](https://github.com/manavisharma14/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/manavisharma14/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0797-rabbits-in-forest](https://github.com/manavisharma14/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0952-word-subsets](https://github.com/manavisharma14/Leetcode/tree/master/0952-word-subsets) |
 | [1500-count-largest-group](https://github.com/manavisharma14/Leetcode/tree/master/1500-count-largest-group) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/manavisharma14/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -315,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/manavisharma14/Leetcode/tree/master/0011-container-with-most-water) |
+| [0797-rabbits-in-forest](https://github.com/manavisharma14/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [2032-largest-odd-number-in-string](https://github.com/manavisharma14/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2509-minimize-xor](https://github.com/manavisharma14/Leetcode/tree/master/2509-minimize-xor) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manavisharma14/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -335,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/manavisharma14/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/manavisharma14/Leetcode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/manavisharma14/Leetcode/tree/master/0371-sum-of-two-integers) |
+| [0797-rabbits-in-forest](https://github.com/manavisharma14/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [1013-fibonacci-number](https://github.com/manavisharma14/Leetcode/tree/master/1013-fibonacci-number) |
 | [1500-count-largest-group](https://github.com/manavisharma14/Leetcode/tree/master/1500-count-largest-group) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/manavisharma14/Leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
