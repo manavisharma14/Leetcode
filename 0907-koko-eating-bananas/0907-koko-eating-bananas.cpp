@@ -8,25 +8,37 @@ public:
         return maxi;
     }
 
-    long long calcutotalhours(vector<int>& piles, int hourly) {
-        long long totalH = 0;
+    long long func(vector<int>& piles, int hourly) {
+        long long totalhours = 0;
+
+
         for (int i = 0; i < piles.size(); i++) {
-            totalH += (piles[i] + hourly - 1) / hourly;
+            totalhours += (piles[i] + hourly - 1) / hourly;  
         }
-        return totalH;
+        return totalhours;
     }
 
+
     int minEatingSpeed(vector<int>& piles, int h) {
-        int low = 1, high = findmax(piles);
+
+        int low = 1;
+        int high = findmax(piles);
+
+
         while (low <= high) {
-            int mid = (low + high) / 2;
-            long long totalH = calcutotalhours(piles, mid);
-            if (totalH <= h) {
-                high = mid - 1;
-            } else {
-                low = mid + 1;
+            int mid = low + (high - low) / 2;  
+            long long total = func(piles, mid);  
+
+
+            if (total <= h) {
+                high = mid - 1;  
+            }
+
+            else {
+                low = mid + 1; 
             }
         }
-        return low;
+
+        return low;  // Return the minimum valid speed
     }
 };
