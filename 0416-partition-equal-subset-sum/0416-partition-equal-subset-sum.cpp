@@ -11,20 +11,22 @@ public:
         if(sum%2 != 0) return false;
 
         int target = sum/2;
-        vector<vector<int>>dp(n, vector<int>(target+1, false));
+        vector<int>prev(target+1, false);
 
-        for(int i=0; i<n; i++) dp[i][0] = true;
+        prev[0] = true;
 
-        for(int i=1; i<n; i++){
+        for(int i=0; i<n; i++){
+            vector<int>curr(target+1, false);
             for(int j=1; j<=target; j++){
                 bool take = false;
                 if(j>=nums[i]){
-                    take = dp[i-1][j-nums[i]];
+                    take = prev[j-nums[i]];
                 }
-                bool nottake = dp[i-1][j];
-                dp[i][j] = take || nottake;
+                bool nottake = prev[j];
+                curr[j] = take || nottake;
             }  
+            prev = curr;
         }
-        return dp[n-1][target];
+        return prev[target];
     }
 };
