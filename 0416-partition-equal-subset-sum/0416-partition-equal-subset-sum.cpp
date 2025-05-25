@@ -1,22 +1,6 @@
 class Solution {
 public:
 
-    bool func(vector<int>& nums, int index, int target, vector<vector<int>>& dp){
-
-        if(target == 0) return true;
-        if (index < 0 || target < 0) return false;
-
-        if(dp[index][target] != -1) return dp[index][target];
-
-        bool nottake = func(nums, index-1, target, dp);
-
-        bool take = false;
-        if(target>=nums[index]){
-            take = func(nums, index-1, target-nums[index], dp);
-        }
-        return dp[index][target] = take || nottake;
-    }
-
     bool canPartition(vector<int>& nums) {
         int n = nums.size();
 
@@ -27,9 +11,20 @@ public:
         if(sum%2 != 0) return false;
 
         int target = sum/2;
-        vector<vector<int>>dp(n, vector<int>(target+1, -1));
+        vector<vector<int>>dp(n, vector<int>(target+1, false));
 
-        return func(nums, n-1, target, dp);
+        for(int i=0; i<n; i++) dp[i][0] = true;
 
+        for(int i=1; i<n; i++){
+            for(int j=1; j<=target; j++){
+                bool take = false;
+                if(j>=nums[i]){
+                    take = dp[i-1][j-nums[i]];
+                }
+                bool nottake = dp[i-1][j];
+                dp[i][j] = take || nottake;
+            }  
+        }
+        return dp[n-1][target];
     }
 };
