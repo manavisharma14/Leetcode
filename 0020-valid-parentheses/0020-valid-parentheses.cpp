@@ -1,20 +1,37 @@
 class Solution {
 public:
     bool isValid(string s) {
-        stack<char>stk;
+        std::stack<char>mystack;
 
-        for(char c:s){
-            if(c == '(' || c == '[' || c == '{'){
-                stk.push(c);
+        if(s.length() == 0) return true;
+
+        for(int i=0; i<s.length(); i++){
+            if(s[i] == '{' || s[i] == '(' || s[i] == '['){
+                mystack.push(s[i]);
             }
-            else {
-            if (stk.empty()) return false;
-            if(c == ']' && stk.top() != '[') return false;
-            if(c == '}' && stk.top() != '{') return false;
-            if(c == ')' && stk.top() != '(') return false;
-            stk.pop();
+
+
+            if(s[i] == '}' || s[i] == ')' || s[i] == ']'){
+                if(mystack.empty()) return false;
+                if(s[i] == '}') {
+                    if(mystack.top() != '{' ) return false;
+                } else if(s[i] == ']') {
+                    if(mystack.top() != '[' ) return false;
+                } else if(s[i] == ')') {
+                    if(mystack.top() != '(' ) return false;
+                }
+            }
+            
+            if(!mystack.empty()){
+                if(s[i] == '}'){
+                if(mystack.top() == '{') mystack.pop();
+            } else if(s[i] == ']'){
+                if(mystack.top() == '[') mystack.pop();
+            } else if(s[i] == ')'){
+                if(mystack.top() == '(') mystack.pop();
+            } 
             }
         }
-        return stk.empty();
+        return mystack.empty();
     }
 };
