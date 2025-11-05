@@ -4,36 +4,29 @@ public:
         int m = image.size();
         int n = image[0].size();
 
-        queue<pair<int,int>>q;
-        int oldcolor = image[sr][sc];
+        vector<vector<bool>>visited(m, vector<bool>(n, false));
 
-        vector<vector<int>>visited(m, vector<int>(n,0));
+        std::queue<pair<int,int>>q;
+        q.push({sr,sc});
+        int originalcolor = image[sr][sc];
 
         image[sr][sc] = color;
 
-        q.push({sr,sc});
-        visited[sr][sc] = 1;
-
-        int directions[4][2] = {{1,0}, {-1,0}, {0,1}, {0,-1}};
-
         while(!q.empty()){
-            auto node = q.front(); q.pop();
-            int row = node.first;
-            int col = node.second;
+            auto [r,c] = q.front(); q.pop();
 
-            for(int i=0; i<4; i++){
-                int newr = row + directions[i][0];
-                int newc = col + directions[i][1];
+            vector<pair<int,int>>directions = {{-1,0}, {1,0}, {0,-1}, {0,1}};
+            for(auto [dr,dc] : directions){
+                int nr = r + dr;
+                int nc = c + dc;
 
-                if(newr >=0 && newr<m && newc>=0 && newc<n && image[newr][newc] == oldcolor && !visited[newr][newc]){
-                    image[newr][newc] = color;
-                    visited[newr][newc] = 1;
-                    q.push({newr, newc});
+                if(nr>=0 && nr<m && nc>=0 && nc<n && image[nr][nc] == originalcolor && !visited[nr][nc]){
+                    image[nr][nc] = color;
+                    visited[nr][nc] = true;
+                    q.push({nr,nc});
                 }
             }
         }
-
         return image;
-
     }
 };
