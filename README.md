@@ -225,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/manavisharma14/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/manavisharma14/Leetcode/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/manavisharma14/Leetcode/tree/master/0268-missing-number) |
+| [0278-first-bad-version](https://github.com/manavisharma14/Leetcode/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/manavisharma14/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0792-binary-search](https://github.com/manavisharma14/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/manavisharma14/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -646,4 +647,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1801-average-time-of-process-per-machine](https://github.com/manavisharma14/Leetcode/tree/master/1801-average-time-of-process-per-machine) |
 | [1827-invalid-tweets](https://github.com/manavisharma14/Leetcode/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/manavisharma14/Leetcode/tree/master/1908-recyclable-and-low-fat-products) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/manavisharma14/Leetcode/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
