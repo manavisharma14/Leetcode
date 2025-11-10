@@ -26,7 +26,7 @@ public:
                 int nrow = dr + r;
                 int ncol = dc + c;
 
-                if(nrow>=0 && nrow<m && ncol>=0 && ncol<n && !visited[nrow][ncol]){
+                if(nrow>=0 && nrow<m && ncol>=0 && ncol<n && !visited[nrow][ncol] && mat[nrow][ncol] != 0){
                     result[nrow][ncol] = result[r][c] + 1;
                     visited[nrow][ncol] = true;
                     q.push({nrow, ncol});
