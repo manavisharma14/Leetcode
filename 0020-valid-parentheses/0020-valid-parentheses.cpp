@@ -5,22 +5,20 @@ public:
         int n = s.length();
 
         for(int i=0; i<n; i++){
-            if(s[i] == '{' || s[i] == '[' || s[i] == '('){
+            if(s[i] == '(' || s[i] == '[' || s[i] == '{'){
                 stk.push(s[i]);
-            }
-            if(s[i] == ']' || s[i] == '}'|| s[i] == ')'){
-                if(stk.empty()) return false;
-                if((s[i] == ']' && stk.top() == '[') ||
-                (s[i] == ')' && stk.top() == '(') || 
-                (s[i] == '}' && stk.top() == '{')){
-                    stk.pop();
-                } else {
-                    return false;
-                }
-            }
-                        
-            }
-        
+            } 
+            if(s[i] == ']' || s[i] == '}' || s[i] ==')'){
+                if(stk.empty()){ return false; }
+                else if(s[i] == ']' && stk.top() == '[' ||
+                    (s[i] == '}' && stk.top() == '{' ) || 
+                    s[i] == ')' && stk.top() == '('  ){
+                        stk.pop();
+                    } else {
+                        return false;
+                    }
+            } 
+        }
         return stk.empty();
     }
 };
