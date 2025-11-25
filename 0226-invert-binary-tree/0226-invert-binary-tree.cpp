@@ -11,13 +11,21 @@
  */
 class Solution {
 public:
-    TreeNode* invertTree(TreeNode* root) {
-        if(root == nullptr) return {};
 
-        swap(root->left, root->right);
-        invertTree(root->left);
-        invertTree(root->right);
-        return root;
-
+    void dfs(TreeNode* node){
+        if(node == nullptr) return;
+        swap(node->left, node->right);
+        dfs(node->left);
+        dfs(node->right);
     }
+
+
+    TreeNode* invertTree(TreeNode* root) {
+        
+        if(root == nullptr) { return nullptr; }
+        dfs(root);
+
+        return root;
+    }
+
 };
