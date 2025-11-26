@@ -1,29 +1,40 @@
 class Solution {
 public:
 
-    bool dfs(int n, vector<vector<int>>& adj, vector<int>& visited){
-        visited[n] = 1;
-
-        for(int neighbour: adj[n]){
-            if(visited[neighbour] == 0 && dfs(neighbour, adj, visited)) return true;
-            if(visited[neighbour] == 1) return true ;
-        }
-        visited[n] = 2;
-        return false;
-    }
-
-
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int>visited(numCourses, 0);
-        vector<vector<int>>adj(numCourses);
+        int n = numCourses;
+        vector<vector<int>>adj(n);
+        vector<int>indegree(n,0);
 
         for(auto &pre: prerequisites){
             adj[pre[1]].push_back(pre[0]);
         }
 
-        for(int i=0; i<numCourses; i++){
-            if(visited[i] == 0 && dfs(i, adj, visited)) return false;
+        for(int u=0; u<n; u++){
+            for(int v: adj[u]){
+                indegree[v]++;
+            }
         }
-        return true;
+
+        queue<int>q;
+        for(int i=0; i<n; i++){
+            if(indegree[i] == 0){
+                q.push(i);
+            }
+        }
+
+        int count = 0;
+        while(!q.empty()){
+            int u = q.front();
+            q.pop();
+            count++;
+
+            for(int v : adj[u]){
+                indegree[v]--;
+                if(indegree[v] == 0) q.push(v);
+            }
+        }
+        return count == numCourses;
+
     }
 };
