@@ -11,7 +11,6 @@
  */
 class Solution {
 public:
-
     void dfs(TreeNode* node){
         if(node == nullptr) return;
         swap(node->left, node->right);
@@ -19,12 +18,8 @@ public:
         dfs(node->right);
     }
 
-
     TreeNode* invertTree(TreeNode* root) {
-        
-        if(root == nullptr) { return nullptr; }
         dfs(root);
-
         return root;
     }
 
