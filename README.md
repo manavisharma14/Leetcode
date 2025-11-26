@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/manavisharma14/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/manavisharma14/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/manavisharma14/Leetcode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/manavisharma14/Leetcode/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/manavisharma14/Leetcode/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/manavisharma14/Leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/manavisharma14/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -414,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/manavisharma14/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/manavisharma14/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0130-surrounded-regions](https://github.com/manavisharma14/Leetcode/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/manavisharma14/Leetcode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/manavisharma14/Leetcode/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/manavisharma14/Leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -459,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/manavisharma14/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0130-surrounded-regions](https://github.com/manavisharma14/Leetcode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/manavisharma14/Leetcode/tree/master/0133-clone-graph) |
+| [0200-number-of-islands](https://github.com/manavisharma14/Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/manavisharma14/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/manavisharma14/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/manavisharma14/Leetcode/tree/master/0226-invert-binary-tree) |
@@ -484,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/manavisharma14/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0130-surrounded-regions](https://github.com/manavisharma14/Leetcode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/manavisharma14/Leetcode/tree/master/0133-clone-graph) |
+| [0200-number-of-islands](https://github.com/manavisharma14/Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/manavisharma14/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/manavisharma14/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/manavisharma14/Leetcode/tree/master/0226-invert-binary-tree) |
@@ -607,6 +611,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/manavisharma14/Leetcode/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/manavisharma14/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/manavisharma14/Leetcode/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/manavisharma14/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/manavisharma14/Leetcode/tree/master/1073-number-of-enclaves) |
