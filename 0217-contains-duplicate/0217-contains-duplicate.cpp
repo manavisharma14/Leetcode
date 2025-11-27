@@ -4,13 +4,10 @@ public:
         unordered_map<int,int>mp;
 
         for(int i=0; i<nums.size(); i++){
-            mp[nums[i]]++;
-        }
-
-        for( auto& [idx, freq] : mp){
-            if(freq > 1){
+            if(mp.find(nums[i]) != mp.end()){
                 return true;
             }
+            mp[nums[i]] = i;
         }
         return false;
     }
