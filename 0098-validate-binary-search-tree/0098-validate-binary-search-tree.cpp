@@ -13,17 +13,20 @@ class Solution {
 public:
 
     bool dfs(TreeNode* node, long long minVal, long long maxVal){
-        if(!node){ return true; }
+        if(node == nullptr) return true;
 
-        if(node->val <= minVal || node->val >= maxVal) return false;
+        if(node->val <= minVal || node->val >= maxVal){
+            return false;
+        }
 
-        return  dfs(node->left, minVal, node->val) &&
-            dfs(node->right, node->val, maxVal);
+        if(dfs(node->left, minVal, node->val) && (dfs(node->right, node->val, maxVal))){
+            return true;
+        }
+        return false;
     }
 
     bool isValidBST(TreeNode* root) {
 
-        
         return dfs(root, LLONG_MIN, LLONG_MAX);
     }
 };
