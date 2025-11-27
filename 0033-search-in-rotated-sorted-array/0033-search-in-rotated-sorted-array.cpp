@@ -8,19 +8,17 @@ public:
         while(low <= high){
             int mid = low + (high-low)/2;
 
-            if(nums[mid] == target){
-                return mid;
-            }
-            else if(nums[low] <= nums[mid]){
-                // left is the sorted array
-                if(nums[low] <= target && nums[mid] > target){
+            if(nums[mid] == target) return mid;
+
+            if(nums[low] <= nums[mid]){
+                if(target >= nums[low] && target < nums[mid]){
                     high = mid-1;
-                } else {
+                } else{
                     low = mid+1;
                 }
-            } else if(nums[high] >= nums[mid]){
-                // right is the sorted array
-                if(nums[high] >= target && nums[mid] < target){
+            }
+            else if(nums[mid] <= nums[high]){
+                if(target <= nums[high] && target > nums[mid]){
                     low = mid+1;
                 } else{
                     high = mid-1;
