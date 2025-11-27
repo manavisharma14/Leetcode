@@ -11,17 +11,19 @@
  */
 class Solution {
 public:
-    bool isValidBST(TreeNode* root) {
-        return validate(root, LONG_MIN, LONG_MAX);
+
+    bool dfs(TreeNode* node, long long minVal, long long maxVal){
+        if(!node){ return true; }
+
+        if(node->val <= minVal || node->val >= maxVal) return false;
+
+        return  dfs(node->left, minVal, node->val) &&
+            dfs(node->right, node->val, maxVal);
     }
 
-private:
-    bool validate(TreeNode* node, long long lower, long long upper){
-        if(!node) return true;
+    bool isValidBST(TreeNode* root) {
 
-        if(node->val <= lower || node->val >= upper) return false;
-
-        return validate(node->left, lower, node->val) &&
-            validate(node->right, node->val, upper);
+        
+        return dfs(root, LLONG_MIN, LLONG_MAX);
     }
 };
