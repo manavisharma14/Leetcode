@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/manavisharma14/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0542-01-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/manavisharma14/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0682-baseball-game](https://github.com/manavisharma14/Leetcode/tree/master/0682-baseball-game) |
 | [0704-binary-search](https://github.com/manavisharma14/Leetcode/tree/master/0704-binary-search) |
 | [0705-design-hashset](https://github.com/manavisharma14/Leetcode/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/manavisharma14/Leetcode/tree/master/0706-design-hashmap) |
@@ -311,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/manavisharma14/Leetcode/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/manavisharma14/Leetcode/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/manavisharma14/Leetcode/tree/master/0155-min-stack) |
+| [0682-baseball-game](https://github.com/manavisharma14/Leetcode/tree/master/0682-baseball-game) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/manavisharma14/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [3447-clear-digits](https://github.com/manavisharma14/Leetcode/tree/master/3447-clear-digits) |
 ## Recursion
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/manavisharma14/Leetcode/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/manavisharma14/Leetcode/tree/master/0067-add-binary) |
+| [0682-baseball-game](https://github.com/manavisharma14/Leetcode/tree/master/0682-baseball-game) |
 | [1929-concatenation-of-array](https://github.com/manavisharma14/Leetcode/tree/master/1929-concatenation-of-array) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/manavisharma14/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/manavisharma14/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
