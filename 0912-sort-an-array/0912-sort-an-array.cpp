@@ -1,19 +1,17 @@
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
-        std::priority_queue<int, std::vector<int>, std::greater<int>> minHeap;
-        int n = nums.size();
-        vector<int>res;
+        std::priority_queue<int, vector<int>, greater<int>>pq;
+        vector<int>ans;
 
-        for(int i=0; i<n; i++){
-            minHeap.push(nums[i]);
+        for(int num: nums){
+            pq.push(num);
         }
 
-        while(!minHeap.empty()){
-            res.push_back(minHeap.top());
-            minHeap.pop();
+        while(!pq.empty()){
+            ans.push_back(pq.top());
+            pq.pop();
         }
-        return res;
-        
+        return ans;
     }
 };
