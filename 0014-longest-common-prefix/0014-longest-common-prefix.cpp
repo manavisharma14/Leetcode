@@ -1,8 +1,8 @@
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
-        size_t minlen = INT_MAX;
         int n = strs.size();
+        size_t minlen = INT_MAX;
         string ans;
 
         for(int i=0; i<n; i++){
