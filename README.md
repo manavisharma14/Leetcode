@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-maximum-ascending-subarray-sum](https://github.com/manavisharma14/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1929-concatenation-of-array](https://github.com/manavisharma14/Leetcode/tree/master/1929-concatenation-of-array) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/manavisharma14/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/manavisharma14/Leetcode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
 | [2145-grid-game](https://github.com/manavisharma14/Leetcode/tree/master/2145-grid-game) |
 | [2159-two-out-of-three](https://github.com/manavisharma14/Leetcode/tree/master/2159-two-out-of-three) |
 | [2164-two-best-non-overlapping-events](https://github.com/manavisharma14/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1500-count-largest-group](https://github.com/manavisharma14/Leetcode/tree/master/1500-count-largest-group) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/manavisharma14/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/manavisharma14/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/manavisharma14/Leetcode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
 | [2159-two-out-of-three](https://github.com/manavisharma14/Leetcode/tree/master/2159-two-out-of-three) |
 | [2308-divide-array-into-equal-pairs](https://github.com/manavisharma14/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2448-count-number-of-bad-pairs](https://github.com/manavisharma14/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
@@ -463,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-count-servers-that-communicate](https://github.com/manavisharma14/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1753-path-with-minimum-effort](https://github.com/manavisharma14/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/manavisharma14/Leetcode/tree/master/1876-map-of-highest-peak) |
+| [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/manavisharma14/Leetcode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
 | [2145-grid-game](https://github.com/manavisharma14/Leetcode/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/manavisharma14/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [3227-find-missing-and-repeated-values](https://github.com/manavisharma14/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
