@@ -1,28 +1,29 @@
 class Solution {
 public:
-    bool check(string &s, int l, int r){
+    
+    bool check(int l, int r, string s){
+        int n = s.length();
         while(l<r){
-            if(s[l] != s[r]) return false;
+            if(s[r] != s[l]) return false;
             l++;
             r--;
         }
         return true;
     }
+
     bool validPalindrome(string s) {
         int n = s.length();
         int left = 0;
         int right = n-1;
-        int count = 0;
 
         while(left < right){
-            if(s[left] == s[right]){
-                left++;
-                right--;
+            int skip = 0;
+            if(s[left] != s[right]){
+                if(check(left+1, right, s) || check(left, right-1, s)) return true;
+                else return false;
             }
-            else if(s[left] != s[right]){
-                return check(s, left+1, right) ||
-                check(s, left, right-1);
-            }
+            left++;
+            right--;
         }
         return true;
     }
