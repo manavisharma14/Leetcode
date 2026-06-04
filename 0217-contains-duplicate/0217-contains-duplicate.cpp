@@ -6,7 +6,7 @@ public:
 
         for(int num: nums){
             if(mp.find(num) != mp.end()) return true;
-            else mp[num] = num;
+            mp[num] = num;
         }
         return false;
     }
