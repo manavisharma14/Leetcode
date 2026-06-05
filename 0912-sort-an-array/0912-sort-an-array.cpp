@@ -1,15 +1,15 @@
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
-        std::priority_queue<int, vector<int>, greater<int>>pq;
+        priority_queue<int, vector<int>, greater<int>>pq;
         vector<int>ans;
 
-        for(int num: nums){
-            pq.push(num);
+        for(int x: nums){
+            pq.push(x);
         }
 
         while(!pq.empty()){
-            ans.push_back(pq.top());
+            ans.push_back(pq.top());    
             pq.pop();
         }
         return ans;
