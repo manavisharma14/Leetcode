@@ -14,7 +14,7 @@ public:
     }
     
     bool contains(int key) {
-        if(s.find(key) != s.end()) return true;
+        if(s.count(key)) return true;
         else return false;
     }
 };
