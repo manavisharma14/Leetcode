@@ -7,8 +7,7 @@ public:
         for(int i=0; i<strs.size(); i++){
             string word = strs[i];
             sort(word.begin(), word.end());
-            if(mp.find(word) != mp.end()) mp[word].push_back(strs[i]);
-            else mp[word].push_back(strs[i]); 
+            mp[word].push_back(strs[i]); 
         }
 
         for(auto &p : mp){
