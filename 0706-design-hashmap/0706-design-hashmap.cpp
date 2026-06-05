@@ -10,8 +10,9 @@ public:
     }
     
     int get(int key) {
-        if(mp.find(key) == mp.end()) return -1;
-        return mp[key];
+        if(mp.find(key) != mp.end()) 
+            return mp[key];
+        else return -1;
     }
     
     void remove(int key) {
