@@ -7,10 +7,11 @@ public:
         for(int i=0; i<strs.size(); i++){
             string word = strs[i];
             sort(word.begin(), word.end());
-
-            mp[word].push_back(strs[i]);
+            if(mp.find(word) != mp.end()) mp[word].push_back(strs[i]);
+            else mp[word].push_back(strs[i]); 
         }
-        for(auto &p: mp){
+
+        for(auto &p : mp){
             ans.push_back(p.second);
         }
         return ans;
