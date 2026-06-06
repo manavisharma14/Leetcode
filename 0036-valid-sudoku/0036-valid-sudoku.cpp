@@ -14,13 +14,12 @@ public:
 
                 if(rows[i].find(c) != rows[i].end() ||
                     cols[j].find(c) != cols[j].end() ||
-                    boxes[box].find(c) != boxes[box].end()) return false;
+                    boxes[box].find(c) != boxes[box].end()) return false;      
+   
+                rows[i].insert(c);
+                cols[j].insert(c);
+                boxes[box].insert(c);
                 
-                else{
-                    rows[i].insert(c);
-                    cols[j].insert(c);
-                    boxes[box].insert(c);
-                }
             }
         }
         return true;
