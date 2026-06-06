@@ -7,16 +7,20 @@ public:
 
         for(int i=0; i<board.size(); i++){
             for(int j=0; j<board[0].size(); j++){
-                int c = board[i][j];
-                int box = (i / 3) * 3 + (j / 3);
-                if(c== '.') continue;
-                if(rows[i].count(c) ||
-                    cols[j].count(c) ||
-                    boxes[box].count(c)) return false;
+                char c = board[i][j];
+                int box = (i/3)*3 + (j/3);
+                
+                if(c == '.') continue;
 
-                rows[i].insert(c);
-                cols[j].insert(c);
-                boxes[box].insert(c);
+                if(rows[i].find(c) != rows[i].end() ||
+                    cols[j].find(c) != cols[j].end() ||
+                    boxes[box].find(c) != boxes[box].end()) return false;
+                
+                else{
+                    rows[i].insert(c);
+                    cols[j].insert(c);
+                    boxes[box].insert(c);
+                }
             }
         }
         return true;
