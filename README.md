@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/manavisharma14/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/manavisharma14/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1396-count-servers-that-communicate](https://github.com/manavisharma14/Leetcode/tree/master/1396-count-servers-that-communicate) |
+| [1472-design-browser-history](https://github.com/manavisharma14/Leetcode/tree/master/1472-design-browser-history) |
 | [1524-string-matching-in-an-array](https://github.com/manavisharma14/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1753-path-with-minimum-effort](https://github.com/manavisharma14/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/manavisharma14/Leetcode/tree/master/1876-map-of-highest-peak) |
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0705-design-hashset](https://github.com/manavisharma14/Leetcode/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/manavisharma14/Leetcode/tree/master/0706-design-hashmap) |
 | [0908-middle-of-the-linked-list](https://github.com/manavisharma14/Leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [1472-design-browser-history](https://github.com/manavisharma14/Leetcode/tree/master/1472-design-browser-history) |
 ## Two Pointers
 |  |
 | ------- |
@@ -318,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/manavisharma14/Leetcode/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/manavisharma14/Leetcode/tree/master/0155-min-stack) |
 | [0682-baseball-game](https://github.com/manavisharma14/Leetcode/tree/master/0682-baseball-game) |
+| [1472-design-browser-history](https://github.com/manavisharma14/Leetcode/tree/master/1472-design-browser-history) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/manavisharma14/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [3447-clear-digits](https://github.com/manavisharma14/Leetcode/tree/master/3447-clear-digits) |
 ## Recursion
@@ -732,6 +735,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/manavisharma14/Leetcode/tree/master/0155-min-stack) |
 | [0705-design-hashset](https://github.com/manavisharma14/Leetcode/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/manavisharma14/Leetcode/tree/master/0706-design-hashmap) |
+| [1472-design-browser-history](https://github.com/manavisharma14/Leetcode/tree/master/1472-design-browser-history) |
 ## Merge Sort
 |  |
 | ------- |
@@ -748,4 +752,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/manavisharma14/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [1472-design-browser-history](https://github.com/manavisharma14/Leetcode/tree/master/1472-design-browser-history) |
+## Data Stream
+|  |
+| ------- |
+| [1472-design-browser-history](https://github.com/manavisharma14/Leetcode/tree/master/1472-design-browser-history) |
 <!---LeetCode Topics End-->
