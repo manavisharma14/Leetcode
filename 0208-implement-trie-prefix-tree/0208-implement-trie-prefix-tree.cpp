@@ -21,9 +21,10 @@ public:
     
     void insert(string word) {
         TrieNode* current = root;
-
+        
         for(char ch: word){
             int index = ch - 'a';
+
             if(current->children[index] == nullptr){
                 current->children[index] = new TrieNode();
             }
@@ -34,13 +35,13 @@ public:
     
     bool search(string word) {
         TrieNode* current = root;
-        
+
         for(char ch: word){
             int index = ch - 'a';
-
             if(current->children[index] == nullptr){
                 return false;
             }
+
             current = current->children[index];
         }
         return current->isEnd;
@@ -49,13 +50,12 @@ public:
     bool startsWith(string prefix) {
         TrieNode* current = root;
 
-        for(char ch: prefix){
+        for (char ch: prefix){
             int index = ch - 'a';
 
             if(current->children[index] == nullptr){
                 return false;
             }
-
             current = current->children[index];
         }
         return true;
