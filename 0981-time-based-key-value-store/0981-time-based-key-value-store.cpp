@@ -1,6 +1,6 @@
 class TimeMap {
 private:
-    unordered_map<string, vector<pair<int,string>>> store;
+    unordered_map<string, vector<pair<int,string>>>store;
 public:
     TimeMap() {
  
@@ -13,7 +13,7 @@ public:
     string get(string key, int timestamp) {
         if(store.find(key) == store.end()) return "";
 
-        vector<pair<int,string>>& values = store[key];
+        vector<pair<int,string>>&values = store[key];
 
         int left = 0;
         int right = values.size()-1;
@@ -21,10 +21,11 @@ public:
 
         while(left <= right){
             int mid = left + (right-left)/2;
+
             if(values[mid].first <= timestamp){
                 answer = values[mid].second;
                 left = mid+1;
-            } else {
+            } else{
                 right = mid-1;
             }
         }
