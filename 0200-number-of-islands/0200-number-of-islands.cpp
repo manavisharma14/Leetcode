@@ -1,38 +1,38 @@
 class Solution {
 public:
+
+    void dfs(int r, int c, vector<vector<char>>& grid, vector<vector<bool>> &visited){
+        int m = grid.size();
+        int n = grid[0].size();
+
+        if (
+            r < 0 || r >= m ||
+            c < 0 || c >= n ||
+            grid[r][c] == '0' ||
+            visited[r][c]
+        ) {
+            return;
+        }
+
+        visited[r][c] = true;
+        dfs(r-1, c, grid, visited);
+        dfs(r, c+1, grid, visited);
+        dfs(r+1, c, grid, visited);
+        dfs(r, c-1, grid, visited);
+    }
+
     int numIslands(vector<vector<char>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
+
         vector<vector<bool>>visited(m, vector<bool>(n, false));
         int islands = 0;
-
-        queue<pair<int,int>>q;
 
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
                 if(grid[i][j] == '1' && !visited[i][j]){
                     islands++;
-                    q.push({i,j});
-                    visited[i][j] = true;
-
-                    // bfs here
-                    // explore only connected ones
-
-                    vector<pair<int,int>>directions = {{-1,0}, {1,0}, {0,-1}, {0,1}};
-
-                    while(!q.empty()){
-                        auto [r,c] = q.front(); q.pop();
-
-                        for(auto &[dr, dc] : directions){
-                            int nr = dr + r;
-                            int nc = dc + c;
-
-                            if(nc>=0 && nc<n && nr>=0 && nr<m && grid[nr][nc] == '1' && !visited[nr][nc]){
-                                q.push({nr, nc});
-                                visited[nr][nc] = true;
-                            }
-                        }
-                    }
+                    dfs(i, j, grid, visited);
                 }
             }
         }
