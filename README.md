@@ -769,4 +769,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1472-design-browser-history](https://github.com/manavisharma14/Leetcode/tree/master/1472-design-browser-history) |
+## Graph Theory
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/manavisharma14/Leetcode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
