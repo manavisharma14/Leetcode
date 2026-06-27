@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/manavisharma14/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/manavisharma14/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/manavisharma14/Leetcode/tree/master/0133-clone-graph) |
+| [0146-lru-cache](https://github.com/manavisharma14/Leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/manavisharma14/Leetcode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/manavisharma14/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/manavisharma14/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/manavisharma14/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/manavisharma14/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0143-reorder-list](https://github.com/manavisharma14/Leetcode/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/manavisharma14/Leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/manavisharma14/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0705-design-hashset](https://github.com/manavisharma14/Leetcode/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/manavisharma14/Leetcode/tree/master/0706-design-hashmap) |
@@ -738,6 +740,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/manavisharma14/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/manavisharma14/Leetcode/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/manavisharma14/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0705-design-hashset](https://github.com/manavisharma14/Leetcode/tree/master/0705-design-hashset) |
@@ -764,6 +767,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/manavisharma14/Leetcode/tree/master/0146-lru-cache) |
 | [1472-design-browser-history](https://github.com/manavisharma14/Leetcode/tree/master/1472-design-browser-history) |
 ## Data Stream
 |  |
