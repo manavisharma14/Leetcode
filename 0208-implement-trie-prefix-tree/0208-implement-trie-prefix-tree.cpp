@@ -1,6 +1,6 @@
 struct TrieNode {
-    TrieNode* children[26];
-    bool isEnd;
+    TrieNode* children[26];    bool isEnd;
+
 
     TrieNode(){
         isEnd = false;
@@ -39,8 +39,7 @@ public:
 
         for(char ch: word){
             int index = ch - 'a';
-
-            if(current->children[index] == nullptr) {
+            if(current->children[index] == nullptr){
                 return false;
             }
             current = current->children[index];
@@ -53,8 +52,7 @@ public:
 
         for(char ch: prefix){
             int index = ch - 'a';
-
-            if(current->children[index] == nullptr) {
+            if(current->children[index] == nullptr){
                 return false;
             }
             current = current->children[index];
