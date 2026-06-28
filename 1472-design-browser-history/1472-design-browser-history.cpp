@@ -1,35 +1,39 @@
 class BrowserHistory {
 public:
-    stack<string>history;
-    stack<string>pagesahead;
+    vector<string>history;
+    int current = 0;
 
     BrowserHistory(string homepage) {
-        history.push(homepage);
+        history.push_back(homepage);
     }
     
     void visit(string url) {
-        history.push(url);
-        while(!pagesahead.empty()){
-            pagesahead.pop();
-        }
+        history.resize(current+1);
+        history.push_back(url);
+        current++;
     }
     
     string back(int steps) {
-        while(steps > 0 && history.size() > 1){
-            pagesahead.push(history.top());
-            history.pop();
+        while(steps >0 && current > 0){
+            current = current-1;
             steps--;
         }
-        return history.top();
+        return history[current];
+
+        if(steps > history.size()) return history[0];
     }
     
     string forward(int steps) {
-        while(steps > 0 && !pagesahead.empty()){
-            history.push(pagesahead.top());
-            pagesahead.pop();
+        while(steps > 0 && current < history.size()-1){
+            current = current+1;
             steps--;
         }
-        return history.top();
+
+        return history[current];
+
+        if(steps > history.size()){
+            return history[history.size()-1];
+        }
     }
 };
 
