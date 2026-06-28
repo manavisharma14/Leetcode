@@ -1,23 +1,23 @@
 class LRUCache {
 private:
     int cap;
-    unordered_map<int, list<pair<int,int>>::iterator> mp;
     list<pair<int,int>>cache;
-
+    unordered_map<int, list<pair<int,int>>::iterator>mp;
+    
 public:
     LRUCache(int capacity) {
         cap = capacity;
     }
     
     int get(int key) {
-        if(mp.find(key) == mp.end()){ return -1; }
+        if(mp.find(key) == mp.end()) return -1;
 
         auto it = mp[key];
         int value = it->second;
-
         cache.erase(it);
         cache.push_front({key, value});
         mp[key] = cache.begin();
+
         return value;
     }
     
@@ -25,16 +25,17 @@ public:
         if(mp.find(key) != mp.end()){
             auto it = mp[key];
             cache.erase(it);
-        } 
+        }
 
         cache.push_front({key, value});
         mp[key] = cache.begin();
-
+        
         if(cache.size() > cap){
             int lrukey = cache.back().first;
             mp.erase(lrukey);
             cache.pop_back();
         }
+
     }
 };
 
