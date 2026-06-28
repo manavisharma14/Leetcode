@@ -2,7 +2,7 @@ struct TrieNode {
     TrieNode* children[26];
     bool isEnd;
 
-    TrieNode() {
+    TrieNode(){
         isEnd = false;
         for(int i=0; i<26; i++){
             children[i] = nullptr;
@@ -14,6 +14,7 @@ class Trie {
 
 private:
     TrieNode* root;
+
 public:
     Trie() {
         root = new TrieNode();
@@ -21,7 +22,7 @@ public:
     
     void insert(string word) {
         TrieNode* current = root;
-        
+
         for(char ch: word){
             int index = ch - 'a';
 
@@ -38,22 +39,22 @@ public:
 
         for(char ch: word){
             int index = ch - 'a';
-            if(current->children[index] == nullptr){
+
+            if(current->children[index] == nullptr) {
                 return false;
             }
-
             current = current->children[index];
         }
-        return current->isEnd;
-    }
+        return current->isEnd == true;
+    }   
     
     bool startsWith(string prefix) {
         TrieNode* current = root;
 
-        for (char ch: prefix){
+        for(char ch: prefix){
             int index = ch - 'a';
 
-            if(current->children[index] == nullptr){
+            if(current->children[index] == nullptr) {
                 return false;
             }
             current = current->children[index];
