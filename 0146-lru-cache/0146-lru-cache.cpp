@@ -16,8 +16,8 @@ public:
         int value = it->second;
         cache.erase(it);
         cache.push_front({key, value});
-        mp[key] = cache.begin();
 
+        mp[key] = cache.begin();
         return value;
     }
     
@@ -26,16 +26,14 @@ public:
             auto it = mp[key];
             cache.erase(it);
         }
-
         cache.push_front({key, value});
         mp[key] = cache.begin();
-        
+
         if(cache.size() > cap){
             int lrukey = cache.back().first;
             mp.erase(lrukey);
             cache.pop_back();
         }
-
     }
 };
 
