@@ -1,24 +1,22 @@
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
-        vector<unordered_set<int>>rows(9);
-        vector<unordered_set<int>>cols(9);
-        vector<unordered_set<int>>boxes(9);
+        vector<unordered_set<char>> rows(9);
+        vector<unordered_set<char>> cols(9);
+        vector<unordered_set<char>> boxes(9);
 
         for(int i=0; i<board.size(); i++){
-            for(int j=0; j<board[0].size(); j++){
-                char c = board[i][j];
-                int box = (i/3)*3 + (j/3);
-
-                if(c == '.') continue;
-
-                if((rows[i].find(c) != rows[i].end()) ||
-                    cols[j].find(c) != cols[j].end() ||
-                    boxes[box].find(c) != boxes[box].end()) return false;
+            for(int j=0; j<board.size(); j++){
+                if(board[i][j] == '.') continue;
+                if(rows[i].find(board[i][j]) != rows[i].end()) return false;
+                else rows[i].insert(board[i][j]);
                 
-                rows[i].insert(c);
-                cols[j].insert(c);
-                boxes[box].insert(c);
+                if(cols[j].find(board[i][j]) != cols[j].end()) return false;
+                else cols[j].insert(board[i][j]);
+
+                int box = (i/3)*3 + (j/3);
+                if(boxes[box].find(board[i][j]) != boxes[box].end()) return false;
+                else boxes[box].insert(board[i][j]);
             }
         }
         return true;
