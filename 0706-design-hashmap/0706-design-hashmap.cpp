@@ -1,6 +1,8 @@
 class MyHashMap {
-public:
+private:
     unordered_map<int,int>mp;
+public:
+
     MyHashMap() {
         
     }
@@ -10,9 +12,8 @@ public:
     }
     
     int get(int key) {
-        if(mp.find(key) != mp.end()) 
-            return mp[key];
-        else return -1;
+        if(mp.find(key) == mp.end()) return -1;
+        else return mp[key];
     }
     
     void remove(int key) {
