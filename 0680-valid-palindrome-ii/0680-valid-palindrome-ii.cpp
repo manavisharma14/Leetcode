@@ -1,31 +1,29 @@
 class Solution {
+private:
+    bool skipcheck(int l, int r, string s){
+        while(l<r){
+            if(s[l] != s[r]) return false;
+            l++;
+            r--;
+        }
+        return true;
+    }
+
 public:
 
-    bool check(int l, int r, string s){
-            while(l<r){
-                if(s[l] != s[r]) return false;
-                l++;
-                r--;
-            }
-            return true;
-        }
-
-    bool validPalindrome(string s) {
+    bool validPalindrome(string s){
         int n = s.length();
-        int left = 0;
-        int right = n-1;
+        
+        int l = 0;
+        int r = n-1;
 
-        while(left<right){
-            if(tolower(s[left]) != tolower(s[right])){
-                if(check(left+1, right, s)) return true;
-                else if(check(left, right-1, s)) return true;
-                else return false;
+        while(l<r){
+            if(s[l] != s[r]){
+                return skipcheck(l+1, r, s) || skipcheck(l, r-1, s);
             }
-
-            left++;
-            right--;
+            l++;
+            r--;
         }
-
         return true;
     }
 
