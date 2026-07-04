@@ -1,6 +1,8 @@
 class MyHashSet {
-public:
+private:
     unordered_set<int>s;
+public:
+
     MyHashSet() {
         
     }
@@ -14,8 +16,8 @@ public:
     }
     
     bool contains(int key) {
-        if(s.count(key)) return true;
-        else return false;
+        if(s.find(key) == s.end()) return false;
+        else return true;
     }
 };
 
