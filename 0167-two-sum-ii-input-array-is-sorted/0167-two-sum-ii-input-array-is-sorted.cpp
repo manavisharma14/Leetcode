@@ -4,19 +4,13 @@ public:
         int n = numbers.size();
         int left = 0;
         int right = n-1;
-        int sum = 0;
 
-        while(left<right){
-            sum = numbers[left] + numbers[right];
-
+        while(left < right){
+            int sum = numbers[left] + numbers[right];
+            if(sum > target) right--;
+            if(sum < target) left++;
             if(sum == target) return {left+1, right+1};
-
-            else if(sum > target){
-                right--;
-            }
-            else if(sum < target){
-                left++;
-            }
+   
         }
         return {};
     }
