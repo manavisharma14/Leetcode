@@ -1,6 +1,6 @@
 class Solution {
 private:
-    bool deleteone(int l, int r, string s){
+    bool deleteone(int l, int r, const string& s){
         while(l<r){
             if(s[l] != s[r]) return false;
             l++;
