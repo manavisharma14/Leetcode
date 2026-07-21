@@ -1,6 +1,6 @@
 class Solution {
 private:
-    bool skipcheck(int l, int r, string s){
+    bool deleteone(int l, int r, string s){
         while(l<r){
             if(s[l] != s[r]) return false;
             l++;
@@ -13,16 +13,20 @@ public:
 
     bool validPalindrome(string s){
         int n = s.length();
-        
-        int l = 0;
-        int r = n-1;
 
-        while(l<r){
-            if(s[l] != s[r]){
-                return skipcheck(l+1, r, s) || skipcheck(l, r-1, s);
+        int left = 0;
+        int right = n-1;
+
+        while(left<right){
+            if(s[left] == s[right]){
+                left++;
+                right--;
+                continue;
             }
-            l++;
-            r--;
+
+            else if(s[left] != s[right]){
+                return deleteone(left+1, right, s) || deleteone(left, right-1, s);
+            }
         }
         return true;
     }
